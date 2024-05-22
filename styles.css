@@ -1,4 +1,10 @@
 body {
+    margin: 0;
+    background: red;
+    text-align: center;
+}
+
+body {
     font-family: 'Calibri', serif;
     font-size: 14px;
     color: white;
