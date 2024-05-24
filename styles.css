@@ -1,13 +1,15 @@
 body { /* Background + WebPage */
     margin: 0;
-    background: #B0E0E6;
+    background: #B0E0E6; /*87CEEB */
+    
     text-align: center;
 }
 
 body { /* Text */
     font-family: 'Lato', sans-serif;
     font-size: 14px;
-    color: #000000;
+    color: #000000; 
+
 }
 
 body {
