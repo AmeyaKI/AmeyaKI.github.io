@@ -16,6 +16,8 @@ div {
 }
 
 hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 40px;
     margin-right: 40px;
     border: none; 
@@ -27,4 +29,9 @@ ul.bullet-list {
     padding-left: 20px; /* Changes space between  margin and  bullet points */
     margin-top: 0; /* Removes top margin  */
     margin-bottom: 0; /* Removes bottom margin */
+}
+
+.spaced-br {
+    display: block;
+    margin-bottom: 20px; /* Adjust this value as needed */
 }
