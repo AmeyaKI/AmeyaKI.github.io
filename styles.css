@@ -11,13 +11,13 @@ body {
 }
 
 div {
-    margin-right: 20px;
-    margin-left: 20px; 
+    margin-right: 40px;
+    margin-left: 40px; 
 }
 
 hr {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     border: none; /* Optional: remove the default border */
     height: 1px; /* Optional: set a specific height */
     background-color: #000000; /* Optional: set a specific color */
