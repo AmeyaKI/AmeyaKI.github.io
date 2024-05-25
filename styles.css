@@ -5,12 +5,13 @@ body { /* Background + WebPage */
     text-align: center;
 }
 
-body { /* Text */
-    font-family: 'Lato', sans-serif;
+body {
+    font-family: 'Garamond', serif;
     font-size: 14px;
     color: #000000; 
-
 }
+
+
 
 body {
     text-align: left;
