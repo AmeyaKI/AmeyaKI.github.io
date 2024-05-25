@@ -1,30 +1,24 @@
-body { /* Background + WebPage */
+body { 
+    /* Background + WebPage */
     margin: 0;
-    background: #B0E0E6;
-    
+    background: #ECFFFF;
     text-align: center;
-}
-
-/* body {
-    font-family: 'Helvectica', serif; /* TRY: helvetica, noir, verdana, calibri, */ 
-    /* font-size: 14px; /* original: Lato */
-    /* color: #000000;  */
-/* }  */
-
-
-body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Calibri', sans-serif;
     font-size: 14px;
-    color: #000000; 
-}
-
-
-
-body {
+    color: #000000;
     text-align: left;
-    margin: 0;
     padding: 0;
 }
+
 div {
+    margin-right: 20px;
     margin-left: 20px; 
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none; /* Optional: remove the default border */
+    height: 1px; /* Optional: set a specific height */
+    background-color: #000000; /* Optional: set a specific color */
 }
