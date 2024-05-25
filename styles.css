@@ -5,9 +5,16 @@ body { /* Background + WebPage */
     text-align: center;
 }
 
+/* body {
+    font-family: 'Helvectica', serif; /* TRY: helvetica, noir, verdana, calibri, */ 
+    /* font-size: 14px; /* original: Lato */
+    /* color: #000000;  */
+/* }  */
+
+
 body {
-    font-family: 'Garamond', serif; /* TRY: helvetica, noir, verdana, calibri, */ 
-    font-size: 14px; /* original: Lato */
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
     color: #000000; 
 }
 
