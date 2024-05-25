@@ -4,18 +4,18 @@ body {
     background: #ECFFFF;
     text-align: center;
     font-family: 'Calibri', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     text-align: left;
     padding: 0;
 }
 
 div {
-    margin-right: 40px;
-    margin-left: 40px; 
+    margin-right: 80px;
+    margin-left: 80px; 
 }
 
-hr {
+hr { /* COLOR */
     margin-top: 20px;
     margin-bottom: 20px;
     /* margin-left: 40px;
