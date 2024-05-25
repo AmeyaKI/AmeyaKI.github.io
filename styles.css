@@ -28,5 +28,11 @@ hr {
 
 .spaced-br {
     display: block;
-    margin-bottom: 20px; /* Adjust this value as needed */
+    margin-bottom: 20px; /* Changes bottom spacing */
+}
+
+ul.bullet-list {
+    padding-left: 20px; /* Changes space between  margin and bullet points */
+    margin-top: 0; /* Reduces top margin  */
+    margin-bottom: 0; /* Reduces bottom margin  */
 }
