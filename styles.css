@@ -25,7 +25,9 @@ hr { /* COLOR */
     background-color: #000000; /* Color of lines */
 }
 
-
+h2 {
+    font-size: 30; 
+}
 .spaced-br {
     display: block;
     margin-bottom: 20px; /* Changes bottom spacing */
