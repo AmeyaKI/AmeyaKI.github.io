@@ -4,15 +4,15 @@ body {
     background: #ECFFFF;
     text-align: center;
     font-family: 'Calibri', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
     text-align: left;
     padding: 0;
 }
 
 div {
-    margin-right: 80px;
-    margin-left: 80px; 
+    margin-right: 192px; /* 2 inches for both */
+    margin-left: 192px; 
 }
 
 hr { /* COLOR */
