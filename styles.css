@@ -64,7 +64,6 @@ ul.bullet-list {
     color: #0077B5; 
     text-decoration: none; 
     font-weight: bold; 
-    margin-right: 500px;
 }
 
 .linkedin-link:hover {
@@ -81,4 +80,8 @@ ul.bullet-list {
 .email-link:hover {
     text-decoration: underline;
     color: FF9999; 
+}
+
+button {
+    background:#546669
 }
