@@ -69,3 +69,14 @@ ul.bullet-list {
 .linkedin-link:hover {
     text-decoration: underline;
 }
+
+
+a {
+    color: blue; /* Change color here */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for hyperlink when hovered */
+a:hover {
+    color: red; /* Change color when hovered */
+}
