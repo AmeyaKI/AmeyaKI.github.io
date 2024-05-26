@@ -22,12 +22,14 @@ img {
     height: auto;
 }
 
-hr {
+hr { /* COLOR */
     margin-top: 20px;
     margin-bottom: 20px;
-    border: none;
-    height: 1px;
-    background-color: #000000;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    border: none; 
+    height: 1px; /* Width of lines */
+    background-color: #000000; /* Color of lines */
 }
 
 h2 {
@@ -40,7 +42,7 @@ h2 {
 }
 
 ul.bullet-list {
-    padding-left: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding-left: 20px; /* Changes space between  margin and bullet points */
+    margin-top: 0; /* Reduces top margin  */
+    margin-bottom: 0; /* Reduces bottom margin  */
 }
