@@ -59,3 +59,12 @@ ul.bullet-list {
     margin-bottom: 0; /* Reduces bottom margin  */
     font-size: 30px;
 }
+
+a {
+    color: #0e76a8; /* LinkedIn blue color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
