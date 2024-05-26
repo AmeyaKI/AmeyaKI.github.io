@@ -32,6 +32,13 @@ hr { /* COLOR */
     background-color: #000000; /* Color of lines */
 }
 
+b {
+    font-size: 30px;
+}
+
+p {
+    font-size: 30px;
+}
 h1 {
     font-size: 60px;
 }
