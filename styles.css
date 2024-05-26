@@ -28,6 +28,7 @@ hr { /* COLOR */
 h2 {
     font-size: 30; 
 }
+
 .spaced-br {
     display: block;
     margin-bottom: 20px; /* Changes bottom spacing */
@@ -40,7 +41,9 @@ ul.bullet-list {
 }
 
 
-img {
-    max-width: 5%; /* Set the maximum width of the image to 100% of its container */
-    height: auto; /* Maintain the aspect ratio of the image */
+img.profile-photo {
+    float: right;
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
 }
