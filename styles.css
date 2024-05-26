@@ -40,7 +40,7 @@ ul.bullet-list {
     margin-bottom: 0; /* Reduces bottom margin  */
 }
 
-img.profile-photo {
+img {
     float: right;
     max-width: 5%;
     height: auto;
