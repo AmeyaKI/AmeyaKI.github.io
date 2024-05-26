@@ -1,48 +1,52 @@
-body { 
-    /* Background + WebPage */
+body {
     margin: 0;
     background: #ECFFFF;
-    text-align: center;
     font-family: 'Calibri', sans-serif;
     font-size: 16px;
     color: #000000;
-    text-align: left;
     padding: 0;
 }
 
-div {
-    margin-right: 40px;
-    margin-left: 40px; 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px;
 }
 
-hr { /* COLOR */
+.about-me {
+    flex: 1;
+}
+
+.photo {
+    flex: 0 0 auto;
+    margin-left: 20px;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
+
+hr {
     margin-top: 20px;
     margin-bottom: 20px;
-    /* margin-left: 40px;
-    margin-right: 40px; */
-    border: none; 
-    height: 1px; /* Width of lines */
-    background-color: #000000; /* Color of lines */
+    border: none;
+    height: 1px;
+    background-color: #000000;
 }
 
 h2 {
-    font-size: 40; 
+    font-size: 40px;
 }
 
 .spaced-br {
     display: block;
-    margin-bottom: 20px; /* Changes bottom spacing */
+    margin-bottom: 20px;
 }
 
 ul.bullet-list {
-    padding-left: 20px; /* Changes space between  margin and bullet points */
-    margin-top: 0; /* Reduces top margin  */
-    margin-bottom: 0; /* Reduces bottom margin  */
-}
-
-img {
-    float: right;
-    max-width: 5%;
-    height: auto;
-    margin: 20px;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
