@@ -54,9 +54,9 @@ h4 {
 }
 
 ul.bullet-list {
-    padding-left: 20px; /* Changes space between  margin and bullet points */
-    margin-top: 0; /* Reduces top margin  */
-    margin-bottom: 0; /* Reduces bottom margin  */
+    padding-left: 20px; 
+    margin-top: 0; 
+    margin-bottom: 0; 
     font-size: 30px;
 }
 
@@ -72,11 +72,11 @@ ul.bullet-list {
 
 
 a {
-    color: blue; /* Change color here */
-    text-decoration: none; /* Remove underline */
+    color: #0077B5; 
+    text-decoration: none; 
+    font-weight: bold;
 }
 
-/* Style for hyperlink when hovered */
 a:hover {
-    color: red; /* Change color when hovered */
+    color: #FF0000;
 }
