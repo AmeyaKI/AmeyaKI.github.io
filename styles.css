@@ -83,5 +83,10 @@ ul.bullet-list {
 }
 
 button {
-    background:#546669
+    background: #546669;
+    color: ECFFFF;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none; 
+    font-family: sans-serif;
 }
