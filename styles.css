@@ -18,12 +18,14 @@ body {
     flex: 1;
 }
 
+.photo {
+    flex: 0 0 auto;
+    margin-left: 20px;
+}
 
 img {
     max-width: 200px;
     height: auto;
-    flex: 0 0 auto;
-    margin-left: 20px;
 }
 
 hr {
