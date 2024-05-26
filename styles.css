@@ -68,6 +68,7 @@ ul.bullet-list {
 
 .linkedin-link:hover {
     text-decoration: underline;
+    color: FF9999;
 }
 
 .email-link {
@@ -78,4 +79,5 @@ ul.bullet-list {
 
 .email-link:hover {
     text-decoration: underline;
+    color: FF9999;
 }
