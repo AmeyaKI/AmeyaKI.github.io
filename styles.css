@@ -6,6 +6,9 @@ body {
     color: #000000;
     padding: 0;
 }
+body.large-text {
+    font-size: 30px; 
+}
 
 div {
     margin-right: 40px;
@@ -30,10 +33,6 @@ hr { /* COLOR */
     border: none; 
     height: 1px; /* Width of lines */
     background-color: #000000; /* Color of lines */
-}
-
-b {
-    font-size: 30px;
 }
 
 p {
