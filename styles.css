@@ -90,50 +90,49 @@ h4 {
     margin-bottom: 20px;
 }
 
-ul.bullet-list {
+/* ul.bullet-list {
     padding-left: 20px; 
     margin-top: 0; 
     margin-bottom: 0; 
     font-size: 30px;
+} */
+
+
+header.split-left {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
 }
 
-button {
-    text-align: center;
-    background: #F0F0F0;
-    color: #333333;
-    font-size: 50px;
-    padding: 10px 80px;
-    border: none; 
-    font-family: sans-serif;
-    margin-right: 50px;
+.buttons {
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+
+}
+.email-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0077B5;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    line-height: 1;
+    transition: background-color 0.3s;
+    margin-right: 80px;
 }
 
-button:hover {
-    text-align: center;
-    background: #E0E0E0;
-    color: #000000; 
-  }
-
-
-  .email-button {
-    display: inline-flex; /* Align the content horizontally */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    width: 80px; /* Increased width for larger button */
-    height: 80px; /* Increased height for larger button */
-    border-radius: 50%; /* Make it circular */
-    background-color: #0077B5; /* LinkedIn background color */
-    color: white; /* Icon color */
-    text-decoration: none; /* Remove underline */
-    font-size: 36px; /* Increased icon size */
-    line-height: 1; /* Adjust for vertical alignment */
-    transition: background-color 0.3s; /* Smooth transition */
-}
 
 .email-button:hover {
-    background-color: #0056b3; /* Darker LinkedIn color on hover */
+    background-color: #0056b3;
 }
 
 .email-button i {
-    color: white; /* Icon color */
+    color: white;
 }
