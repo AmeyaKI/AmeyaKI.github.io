@@ -112,14 +112,16 @@ header.split-left {
     display: flex;
 
 }
-.email-button {
+
+
+.contact-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #0077B5;
+    background-color: #5DADE2;
     color: white;
     text-decoration: none;
     font-size: 36px;
@@ -129,10 +131,40 @@ header.split-left {
 }
 
 
-.email-button:hover {
+.contact-button:hover {
     background-color: #0056b3;
 }
 
-.email-button i {
+.contact-button i {
     color: white;
 }
+
+.skill-bubble {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 30px;
+    background-color: #5DADE2;
+    color: white;
+    text-decoration: none;
+    font-size: 30px; 
+    line-height: 1;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px
+}
+
+.skill-bubble:hover {
+    background-color: #0056b3; /* Lighter but darker than the initial color */
+}
+
+.skill-bubble iconify-icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px; /* Added space between icon and text */
+}
+
+
